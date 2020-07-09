@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--高版本不需要设置背景，否则报错-->
+    <com.dimen.videoview.ClientTextureView
+        android:id="@+id/SurfaceViewPlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark" />
+
+</RelativeLayout>
+
+
